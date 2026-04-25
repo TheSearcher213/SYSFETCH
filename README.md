@@ -6,6 +6,8 @@ A small Python NeoFetch Project that any does simple things like:
 3. Returns the processor name
 4. Returns the computer's network name
 5. Returns the Python Build Number and date
+
+To run the Python File: "python3 SYSFETCH.py" or "python SYSFETCH.py"
 -----------------------------------------------------------------
 # KEEP IN MIND THIS IS PROBABLY NOT GOING TO BE UPDATED
 -TheSearcher213
