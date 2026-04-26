@@ -1,16 +1,19 @@
 ## SYSFETCH
-A small Python NeoFetch Project that any does simple things like:
+A small Python NeoFetch Project that does things like:
 
 1. Returns the system name
 2. Returns the system release
 3. Returns the processor name
-4. Returns the computer's network name
-5. Returns the Python Build Number and date
+    and more! (See FETCHS.md)
 
-To run the Python File: "python3 SYSFETCH.py" or "python SYSFETCH.py"
+To run the Python File: "python3 SYSFETCH.py" or "python SYSFETCH.py" --Normal
+for Minimal and Ultra minimal:
+--"python3 SYSFETCH-M.py" or "python SYSFETCH-M.py" -Minimal
+--"python3 SYSFETCH-ULM.py" or "python SYSFETCH-ULM.py" -Ultra Minimal
 -----------------------------------------------------------------
 YOU NEED TO INSTALL "psutil" ON YOUR COMPUTER FOR THIS TO WORK
 -https://pypi.org/project/psutil/#files --offical website for "psutil"
+# YOU DO NOT NEED "psutil" FOR MINIMAL AND ULTRA MINIMAL VERSIONS!
 -----------------------------------------------------------------
-# KEEP IN MIND THIS IS PROBABLY NOT GOING TO BE UPDATED
+# KEEP IN MIND THIS IS PROBABLY NOT GOING TO BE UPDATED ALWAYS!
 -TheSearcher213
