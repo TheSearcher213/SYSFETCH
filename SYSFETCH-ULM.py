@@ -1,0 +1,16 @@
+import platform
+import time
+SYS1 = platform.system()
+SYS2 = platform.release()
+SYS3 = platform.node()
+print("|----------------------|")
+print(" SYSFETCH ULTRA MINIMAL")
+print("|----------------------|")
+print("OPERATING SYSTEM: ", SYS1)
+print("RELEASE: ", SYS2)
+print("DEVICE NAME: ", SYS3)
+print("----------------------------------------")
+print("Code Made by 'TheSearcher213' on Github")
+print("Librarys Provided by Python Module Index")
+print("----------------------------------------")
+time.sleep(5)
