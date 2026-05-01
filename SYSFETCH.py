@@ -1,6 +1,15 @@
 import platform
 import psutil
 import time
+title = r"""
+  #####  #     #  #####  ####### ####### #######  #####  #     # 
+ #     #  #   #  #     # #       #          #    #     # #     # 
+ #         # #   #       #       #          #    #       #     # 
+  #####     #     #####  #####   #####      #    #       ####### 
+       #    #          # #       #          #    #       #     # 
+ #     #    #    #     # #       #          #    #     # #     # 
+  #####     #     #####  #       #######    #     #####  #     # 
+"""
 SYS = platform.uname()
 SYS1 = platform.python_build()
 WI = platform.win32_ver()
@@ -15,13 +24,16 @@ CCL = psutil.cpu_count(logical=False)
 DU = psutil.disk_usage('/')
 VM = psutil.virtual_memory()
 SM = psutil.swap_memory()
-print("|------------|")
-print("|SYSFETCH 0.5|")
-print("|------------|")
+print("-----------------------------------------------------------------")
+print(title)
+print("-----------------------------------------------------------------")
 print("--------------------")
-print("BASIC INFO: ", SYS)
+print("BASIC INFO: ")
 print("--------------------")
+print(SYS)
+print("-------------------------------------")
 print(" SYSTEM IDENTIFIER: (IF BLANK IGNORE)")
+print("-------------------------------------")
 print("Windows: ", WI)
 print("Mac: ", MO)
 print("Unix", UX)
@@ -42,6 +54,7 @@ print("DISK USAGE (Bytes): ", DU)
 print("VIRTUAL MEMORY (Bytes): ", VM)
 print("SWAP MEMORY (Bytes): ", SM)
 print("--------------------")
+print("Version: 0.6")
 print("----------------------------------------")
 print("Code Made by 'TheSearcher213' on Github")
 print("Librarys Provided by Python Module Index")
