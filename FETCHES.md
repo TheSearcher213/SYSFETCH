@@ -12,6 +12,9 @@
 11-Process Time (Fractional Seconds)
 12-Process Time (Nanoseconds)
 13-Thread Time (in Nanoseconds)
+14-Disk Usage (in bytes)
+15-Virtual Memory (in bytes)
+16-Swap Memory (in bytes)
 ------------------------------------------
 
-#this is the capablities of SYSFETCH 0.3 (will update) 
+#this is the capablities of SYSFETCH 0.6 (will update) 
